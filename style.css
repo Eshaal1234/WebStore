@@ -1,0 +1,80 @@
+.navbar{
+    background-color: brown !important;
+}
+.nav-link{
+    color: aliceblue !important;
+    font-weight: bold !important;
+}
+.fa-cart-shopping,.fa-user{
+    font-size: 23px;
+}
+.fa-truck,.fa-headset,.fa-thumbs-up{
+    font-size: 40px;
+    margin-right: 10px;
+    color: brown;
+}
+.card1,.card2,.card3{
+    display: flex;
+    width: 300px;
+    height: 80px;
+    background-color: aliceblue;
+    box-shadow: 2px 4px 5px grey;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+h3{
+    color: brown;
+}
+.maincard{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    width: 200px;
+    height: auto;
+    margin-bottom: 15px;
+}
+.card-text{
+    font-weight: bold;
+}
+.handing{
+    text-align: center;
+    margin: 25px;
+    font-weight: bold;    
+}
+.handing > h1{
+    text-shadow: 2px 2px 4px rgb(0, 255, 34);
+}
+.btn-primary{
+    width: 100%;
+    background-color: brown;
+    border: none;
+}
+.btn-primary:hover{
+    background-color: beige;
+    color: black;
+}
+@media screen and (max-width: 600px) {
+    .card1,.card2,.card3{
+        width:100% ;
+  }
+}
+.newarrival{
+     margin-top: 40px;
+}
+.footer{
+    height: 70px;
+    width: 100%;
+    background-color: brown;
+}
+.footer > div{
+   text-align: center !important;
+}
+h2{
+    color: antiquewhite;
+}
